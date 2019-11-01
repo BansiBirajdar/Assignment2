@@ -6,13 +6,17 @@ Output :
 * * * * *
 * * * * *
 * * * * *'''
+
 def Display(no):
     for i in range(0,no):
         for j in range(0,no):
-            print("*",end=" ");
-        print("\n");
+            print("*",end=" ")
+        print("\n")
+
 def main():
-    no=int(input("enter the number="));
-    Display(no);
+    no=int(input("enter the number="))
+    Display(no)
+
+
 if (__name__=="__main__"):
-    main();
+    main()
